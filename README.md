@@ -4,13 +4,13 @@ Syntax highlight for free format input.
 
 ## Features
 
-![screen capture](https://github.com/kchoworks/free-format-input/blob/main/img/screen-capture.png)
+![screen capture](img/screen-capture.png)
 
-- line comment: "#"
+- line comment marker: **#**
 
-- keyword: "\*"
+- keyword marker: **\***
 
-- key: "=" in key=value
+- key indicator: **=** in key=value
 
 ## Requirements
 
@@ -30,8 +30,10 @@ Currently, no additional setting is provided.
 
 ### 1.0.1
 
-Addition of screen shot in readme.
+- Addition of screen shot in readme.
+
+- Addition of icon.
 
 ### 1.0.0
 
-Initial release of free format input.
+- Initial release of free format input.

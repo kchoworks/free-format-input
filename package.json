@@ -18,6 +18,7 @@
     "syntax highlight",
     "free format input"
   ],
+  "icon": "img/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/kchoworks/free-format-input"
