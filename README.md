@@ -4,7 +4,7 @@ Syntax highlight for free format input.
 
 ## Features
 
-![screen capture](screen-capture.png)
+![screen capture](https://github.com/kchoworks/free-format-input/blob/main/img/screen-capture.png)
 
 - line comment: "#"
 

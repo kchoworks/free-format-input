@@ -10,9 +10,18 @@
   "engines": {
     "vscode": "^1.63.0"
   },
+  "license": "MIT (see LICENSE)",
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "syntax highlight",
+    "free format input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kchoworks/free-format-input"
+  },
   "contributes": {
     "languages": [
       {
