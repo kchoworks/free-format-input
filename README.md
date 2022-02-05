@@ -28,11 +28,13 @@ Currently, no additional setting is provided.
 
 ## Release Notes
 
+### 1.0.2
+
+- Addition of icon.
+
 ### 1.0.1
 
 - Addition of screen shot in readme.
-
-- Addition of icon.
 
 ### 1.0.0
 
