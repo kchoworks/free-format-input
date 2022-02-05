@@ -1,0 +1,38 @@
+{
+  "name": "free-format-input",
+  "displayName": "Free Format Input",
+  "description": "Syntax highlight for free format input",
+  "author": {
+    "name": "Keunhee Cho"
+  },
+  "publisher": "Life-Science",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "inp",
+        "aliases": [
+          "freeFormat",
+          "inp"
+        ],
+        "extensions": [
+          ".inp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "inp",
+        "scopeName": "source.inp",
+        "path": "./syntaxes/inp.tmLanguage.json"
+      }
+    ]
+  }
+}

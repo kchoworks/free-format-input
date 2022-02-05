@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "freeFormat",
+  "patterns": [{ "include": "#comments" }, { "include": "#keywords" }, { "include": "#strings" }],
+  "foldingStartMarker": "\\*",
+  "foldingStopMarker": "\\*",
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.number-sign.inp",
+          "match": "#.*"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "match": "^\\*\\s*([.\\-\\w]+)",
+          "captures": {
+            "1": { "name": "keyword.control.inp" }
+          }
+        },
+        {
+          "match": "([.\\-\\w]+)\\s*=",
+          "captures": {
+            "1": { "name": "variable.parameter.inp" }
+          }
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.inp",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.inp",
+          "match": "\\\\."
+        }
+      ]
+    }
+  },
+  "scopeName": "source.inp"
+}

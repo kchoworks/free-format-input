@@ -1,0 +1,12 @@
+# line comment
+*keyword1, key1=value11, value12, key2 = value2
+  key3 = value3, key4=value4, ...
+  values, ...  key5=value5
+
+*keyword2, ...  # line comment
+  ...  # line comment
+
+
+
+
+
